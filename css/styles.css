@@ -773,6 +773,7 @@ footer .tel:focus {
   outline: 2px solid #212121;
   outline-offset: -2px;
   transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-checkbox-input:checked + .modal-checkbox-icon {
   outline-color: var(--accent-color);
